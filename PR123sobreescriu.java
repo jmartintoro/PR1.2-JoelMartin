@@ -11,6 +11,7 @@ public class PR123sobreescriu {
             file.delete();
         }
         try {
+            // Sobreescriure les frases a l'arxiu
             file.createNewFile();
             FileWriter fileWrite = new FileWriter(file);
             fileWrite.write(" - \"Yo sólo puedo mostrarte la puerta\"\n - \"Tú eres quien la tiene que atravesar\"");

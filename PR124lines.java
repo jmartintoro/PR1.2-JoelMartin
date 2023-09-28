@@ -15,6 +15,7 @@ public class PR124lines {
                 file.createNewFile();
                 FileWriter fileWrite = new FileWriter(file, true);
                 int cont = 0;
+                // Omplir el arxiu amb numeros aleatoris
                 do {
                     Random random = new Random();
                     int randomNum = random.nextInt(1000) + 1;

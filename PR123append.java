@@ -12,6 +12,7 @@ public class PR123append {
                 file.createNewFile();
                 salt = "";
             }
+            // Append les frases a l'arxiu
             FileWriter fileWrite = new FileWriter(file, true);
             fileWrite.write(salt + " - \"Yo sólo puedo mostrarte la puerta\"\n - \"Tú eres quien la tiene que atravesar\"");
             fileWrite.close();
