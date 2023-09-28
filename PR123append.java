@@ -16,7 +16,6 @@ public class PR123append {
             fileWrite.write(salt + " - \"Yo sólo puedo mostrarte la puerta\"\n - \"Tú eres quien la tiene que atravesar\"");
             fileWrite.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
