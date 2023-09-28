@@ -19,7 +19,7 @@ public class PR122cat {
         } 
     }
 
-    private void readFile(File f){
+    public void readFile(File f){
         Scanner scRead;
         try {
             System.out.println("File: \n");

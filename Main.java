@@ -14,6 +14,8 @@ public class Main {
       menu = menu + "\n 0) PR120ReadFile";
       menu = menu + "\n 1) PR121Files";
       menu = menu + "\n 2) PR122cat";
+      menu = menu + "\n 3) PR123sobreescriu";
+      menu = menu + "\n 3) PR123append";
       // Adapta aquí les altres classes de l’exercici (PR122cat…)
       menu = menu + "\n 100) Sortir";
       System.out.println(menu);
@@ -25,6 +27,8 @@ public class Main {
           case 0: PR120ReadFile.main(args); break;
           case 1: PR121Files.main(args); break;
           case 2: PR122cat.main(args); break;
+          case 3: PR123sobreescriu.main(args); break;
+          case 4: PR123append.main(args); break;
           // Adapta aquí les altres classes de l’exercici (PR122cat…)
           case 100: running = false; break;
           default: break;
