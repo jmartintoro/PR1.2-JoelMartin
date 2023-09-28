@@ -4,14 +4,14 @@ public class PR121Files {
 
     public static void main(String[] args) {
         File myFiles = new File("./myFiles");
-            File file1 = new File("./myFiles/file1.txt");
-            File file2 = new File("./myFiles/file2.txt");
+        File file1 = new File("./myFiles/file1.txt");
+        File file2 = new File("./myFiles/file2.txt");
         if (myFiles.mkdir()) {
             System.out.println("Carpeta " + myFiles.getName() + " creada");
         } else {
             System.out.println("error, la carpeta no s'ha creat");
         }
-                // Creacio de file1.txt i file2.txt
+        // Creacio de file1.txt i file2.txt
         try {
             if (file1.createNewFile()) {
                 System.out.println(file1.getName() + " creat");
